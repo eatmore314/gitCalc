@@ -1,0 +1,17 @@
+.container {
+    background: rgba(100,100,100,1);
+    width: 148px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#display {
+    display: flex;
+}
+
+.buttons_container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    gap: 10px;
+}
